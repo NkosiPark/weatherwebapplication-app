@@ -63,13 +63,13 @@ function App() {
   const getWeatherIconUrl = (main) => {
     switch (main) {
       case "Clear":
-        return "/sun.png"; // Path to your sunny weather icon
+        return "/sun.png"; 
       case "Rain":
-        return "/icons/rainy.png"; // Path to your rainy weather icon
+        return "/icons/rainy.png"; 
       case "Snow":
-        return "/icons/snowy.png"; // Path to your snowy weather icon
+        return "/icons/snowy.png"; 
       case "Haze":
-        return "/sun.png"; // Path to your haze weather icon
+        return "/sun.png"; 
       // Add more cases for other weather conditions as needed
       default:
         return null;
